@@ -74,7 +74,7 @@ USE_OPENGL_RENDERER := true
 BOARD_EGL_CFG := device/asus/grouper/egl.cfg
 
 # Hardware tunables
-BOARD_HARDWARE_CLASS := device/asus/grouper/cmhw/
+BOARD_HARDWARE_CLASS := device/asus/grouper/mkhw/
 
 ifneq ($(HAVE_NVIDIA_PROP_SRC),false)
 # needed for source compilation of nvidia libraries
